@@ -5,36 +5,31 @@ icon: fas fa-server
 order: 6
 permalink: /homelab/
 ---
-It's more of a Home-production, but here's what I've got running in it.
+It's more homeproduction than homelab, but here's what I've got running in it.
 
-*Last Updated March 8, 2022*
+*Last Updated March 11, 2022*
 
 ## Servers
 
-### **Krypton (Docker)**
 
-- Lenovo Thinkpad T420
-- Intel Core i7-2620M
-- 8 GB RAM
-- 500 GB HDD
-- Ubuntu 21.10
-- I'll eventually convert the disk to a VM and make this another Proxmox node.
 
-    **Containers/Services**
-  - Guacamole
-  - Heimdall
-  - Jellyfin
-  - Portainer
-  - Qbittorrent
-  - Wyze-Bridge
+### **Proxmox Cluster**
 
-### **Titanium (Proxmox)**
+- #### **Indium**
 
-- Intel Core i7-7700K
-- Asus Maximus VIII Hero
-- 16 GB RAM
-- 128 GB SATA M.2 SSD
-- 2 TB HDD
+	- Lenovo Thinkpad T420
+	- Intel Core i7-2620M
+	- 8 GB RAM
+	- 500 GB HDD
+	- Ubuntu 21.10
+
+- #### **Titanium**
+
+	- Intel Core i7-7700K
+	- Asus Maximus VIII Hero
+	- 16 GB RAM
+	- 128 GB SATA M.2 SSD
+	- 2 TB HDD
 
 ### **Cadmium (OPNsense Firewall)**
 
@@ -52,7 +47,7 @@ It's more of a Home-production, but here's what I've got running in it.
 
 ## Networking
 
-- OPNsense Firewall (1Gb to WAN, 1Gb [soon to be 10Gb] to LAN)
+- OPNsense Firewall
 - Mikrotik CSS326-24G-2S+RM Switch
 - UniFi AC Pro Access Point
   
@@ -67,6 +62,7 @@ It's more of a Home-production, but here's what I've got running in it.
 
 ### OPNsense Plugins
 
-- ddclient (IDK what's going on with this but it will not update my DuckDNS)
-- mdns-repeater (To make Chromecast work)
-- theme-rebellion (Dark mode 4 lyfe)
+- ddclient
+- mdns-repeater
+- theme-rebellion
+- wireguard

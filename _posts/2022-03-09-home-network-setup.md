@@ -1,7 +1,9 @@
 ---
 layout: post
-title: "Upgrading my Home Network"
+title: "Upgrading My Home Network"
+category: Projects
 tags: networking homelab projects OPNsense UniFi MikroTik 
+date: "2022-03-09 18:07:00 -0500"
 ---
 
 With Spring Break providing some much-needed downtime, I was able to complete (or at least get working) a project that I had been wanting to tackle for a few months now. That project was a complete overhaul of my home network, which had previously used the  all-in-one Router/Switch/Access Point that was provided by my ISP.
