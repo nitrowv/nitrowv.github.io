@@ -11,8 +11,6 @@ It's more homeproduction than homelab, but here's what I've got running in it.
 
 ## Servers
 
-
-
 ### **Proxmox Cluster**
 
 - #### **Indium**
@@ -21,7 +19,6 @@ It's more homeproduction than homelab, but here's what I've got running in it.
 	- Intel Core i7-2620M
 	- 8 GB RAM
 	- 500 GB HDD
-	- Ubuntu 21.10
 
 - #### **Titanium**
 
