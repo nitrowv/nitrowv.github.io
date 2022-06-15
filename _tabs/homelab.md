@@ -7,19 +7,19 @@ permalink: /homelab/
 ---
 It's more homeproduction than homelab, but here's what I've got running in it.
 
-*Last Updated March 11, 2022*
+*Last Updated June 14, 2022*
 
 ## Servers
 
 ### **Proxmox Cluster**
 
-- #### **Indium**
+- #### **Indium (Networking)**
 
 	- Lenovo Thinkpad T420
 	- Intel Core i7-2620M
 	- 8 GB RAM
 	- 500 GB HDD
-
+  
 - #### **Titanium**
 
 	- Intel Core i7-7700K
@@ -37,10 +37,30 @@ It's more homeproduction than homelab, but here's what I've got running in it.
 - 2x Intel 82574L Gigabit NIC
 - Mellanox ConnectX-2 10Gb NIC
 - Supermicro SC512-200B
-  
-## Miscellaneous
 
-- Raspberry Pi 3B - `Hydrogen` (UniFi Controller)
+## Virtual Machines
+
+#### **Indium**
+
+- #### Hydrogen
+  - Debian 11
+  - 2 vCPU, 4 GB RAM, 32 GB HDD
+  - Docker Services: Pi-hole, Traefik, UniFi Controller, Portainer Agent
+
+#### **Titanium**
+
+- #### Krypton
+  - Ubuntu Server 20.04 LTS
+  - 4 vCPUs, 8 GB RAM, 500 GB HDD
+  - Docker Services:
+    - **General:** Gluetun, Homer, Portainer
+    - **Media:** Bazarr, Jackett, Jellyfin, qBittorrent, Radarr, Sonarr
+
+- #### Tantalum
+  - Windows Server 2019
+  - 2 vCPUs, 2 GB RAM, 100 GB HDD
+  - Domain Controller for AD Lab
+
 
 ## Networking
 
@@ -57,8 +77,10 @@ It's more homeproduction than homelab, but here's what I've got running in it.
 - ```VLAN 8 - 192.168.8.0/24``` - Client Devices/Guests
 - ```VLAN 9 - 192.168.9.0/24``` - WFH Devices  (***To Be Implemented***)
 
+
 ### OPNsense Plugins
 
+- acme-client
 - ddclient
 - mdns-repeater
 - theme-rebellion

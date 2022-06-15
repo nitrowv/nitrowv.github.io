@@ -4,14 +4,20 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-Hi there! I'm Tanner Johnston, a junior Computer Science and Information Technology (CSIT) student at Trine University living in Northwest Ohio. I have interests in network/system administration, cybersecurity, and free and open-source software. Besides tech, I enjoy travelling, playing video games, and rooting for Pittsburgh sports teams.
+Hi there! I'm Tanner Johnston, a junior Computer Science and Information Technology (CSIT) student at Trine University living in Northwest Ohio. I have interests in network/system administration, cybersecurity, and free and open-source software. Besides tech, I enjoy traveling, playing video games, and rooting for Pittsburgh sports teams.
 
 ### Certifications
 
 - CompTIA A+
   - Valid until August 11, 2024.
 
-### Relavant Coursework
+### CTF History
+
+- Hack The Box Uni CTF 2021 Qualifiers (Team TrineHacking) - 174th place
+- 2022 Trine University/Parkview Hospital Spring Hacking Challenge (Team ImposterSyndr0me) - 2nd place, $250 cash
+- 2022 BSides Fort Wayne CTF - 2nd place, £100 Hack the Box gift card
+
+### Relevant Coursework
 
 - CS1113 - Intro to Object Oriented Programming (Python)
 - CS1123 - C++ & Object Oriented Design
@@ -34,5 +40,4 @@ Hi there! I'm Tanner Johnston, a junior Computer Science and Information Technol
 
 - CSS Hacking Team
   - Member (Sep 2021 - Present)
-  - Team placed 174th out of 594 teams at HackTheBox UniCTF 2021 Qualifiers.
 
