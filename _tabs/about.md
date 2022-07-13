@@ -4,7 +4,7 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-Hi there! I'm Tanner Johnston, a junior Computer Science and Information Technology (CSIT) student at Trine University living in Northwest Ohio. I have interests in network/system administration, cybersecurity, and free and open-source software. Besides tech, I enjoy traveling, playing video games, and rooting for Pittsburgh sports teams.
+Hi there! I'm Tanner Johnston, a senior Computer Science and Information Technology (CSIT) student at Trine University living in Northwest Ohio. I have interests in network/system administration, cybersecurity, and free and open-source software. Besides tech, I enjoy traveling, playing video games, and rooting for Pittsburgh sports teams.
 
 ### Certifications
 
