@@ -44,7 +44,7 @@ It's more homeproduction than homelab, but here's what I've got running in it.
 
 - #### Hydrogen
   - Debian 11
-  - 2 vCPU, 4 GB RAM, 32 GB HDD
+  - 2 vCPUs, 4 GB RAM, 32 GB HDD
   - Docker Services: Pi-hole, Traefik, UniFi Controller, Portainer Agent
 
 #### **Titanium**
@@ -75,7 +75,6 @@ It's more homeproduction than homelab, but here's what I've got running in it.
 - ```VLAN 6 - 192.168.6.0/24``` - Trusted/Servers
 - ```VLAN 7 - 192.168.7.0/24``` - IoT Devices
 - ```VLAN 8 - 192.168.8.0/24``` - Client Devices/Guests
-- ```VLAN 9 - 192.168.9.0/24``` - WFH Devices  (***To Be Implemented***)
 
 
 ### OPNsense Plugins
