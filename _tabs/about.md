@@ -4,7 +4,7 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-Hi there! I'm Tanner Johnston, a senior Computer Science and Information Technology (CSIT) student at Trine University living in Northwest Ohio. I have interests in network/system administration, cybersecurity, and free and open-source software. Besides tech, I enjoy traveling, playing video games, and rooting for Pittsburgh sports teams.
+Hi there! I'm Tanner Johnston, a senior Computer Science and Information Technology (CSIT) student at Trine University living in Northwest Ohio. I have interests in network/system administration, information security, and free and open-source software. Besides tech, I enjoy traveling, playing video games, and rooting for Pittsburgh sports teams.
 
 ### Certifications
 
@@ -13,9 +13,11 @@ Hi there! I'm Tanner Johnston, a senior Computer Science and Information Technol
 
 ### CTF History
 
-- Hack The Box Uni CTF 2021 Qualifiers (Team TrineHacking) - 174th place
+- HackTheBox Uni CTF 2021 Qualifiers (Team TrineHacking) - 174th place
 - 2022 Trine University/Parkview Hospital Spring Hacking Challenge (Team ImposterSyndr0me) - 2nd place, $250 cash
 - 2022 BSides Fort Wayne CTF - 2nd place, £100 Hack the Box gift card
+- HackTheBox Hack The Boo 2022 - 772nd/6367 participants
+- HackTheBox Cyber Apocalypse 2023 (Trine Hacking Team) - 530th/6482 teams
 
 ### Relevant Coursework
 
@@ -23,8 +25,10 @@ Hi there! I'm Tanner Johnston, a senior Computer Science and Information Technol
 - CS1123 - C++ & Object Oriented Design
 - CSIT223 - Network Management (CCNA/Network+)
 - INF343 - Information Security (Security+)
-- INF403 - Advanced Data Management (SQL)
-- MGT303 - Risk Management
+- CSIT363/373/383/393 - Certified Ethical Hacker 1-4
+- CSIT403 - Applications of Cybersecurity (CISSP/ISC2)
+- CSIT443 - Advanced Cybersecurity Concepts (HackTheBox Dante)
+- CSIT483/493 - Senior Capstone
 
 ### Campus Involvement
 
@@ -39,5 +43,6 @@ Hi there! I'm Tanner Johnston, a senior Computer Science and Information Technol
   - System Administrator (Mar 2022 - Present)
 
 - CSS Hacking Team
-  - Member (Sep 2021 - Present)
+  - Member (Sep 2021 - August 2022)
+  - Co-Captain (August 2022 - Present)
 

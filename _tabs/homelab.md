@@ -7,7 +7,7 @@ permalink: /homelab/
 ---
 It's more homeproduction than homelab, but here's what I've got running in it.
 
-*Last Updated June 14, 2022*
+*As of March 2023*
 
 ## Servers
 
@@ -15,51 +15,72 @@ It's more homeproduction than homelab, but here's what I've got running in it.
 
 - #### **Indium (Networking)**
 
-	- Lenovo Thinkpad T420
-	- Intel Core i7-2620M
-	- 8 GB RAM
+	- Intel NUC5i3SYH
+	- Intel Core i3-6100U
+	- 4 GB RAM
 	- 500 GB HDD
-  
+
 - #### **Titanium**
 
-	- Intel Core i7-7700K
-	- Asus Maximus VIII Hero
-	- 16 GB RAM
+	- Intel Xeon E5-2698 v3
+	- Asus X99-WS/IPMI
+	- 128 GB RAM
 	- 128 GB SATA M.2 SSD
 	- 2 TB HDD
+	- Mellanox ConnectX-2 10Gb NIC
+	- Corsair 4000D Airflow
 
 ### **Cadmium (OPNsense Firewall)**
 
 - Intel Xeon E5504
 - Supermicro X8STi
 - 4 GB RAM
-- 160 GB HDD
+- 256 GB SSD
 - 2x Intel 82574L Gigabit NIC
-- Mellanox ConnectX-2 10Gb NIC
 - Supermicro SC512-200B
+
+### **Iron (TrueNAS)**
+
+- Dell Optiplex 7040 SFF
+- Intel Core i5-6500
+- 8 GB RAM
+- 128 GB SATA M.2 SSD
+- 14 TB Seagate Exos X16 HDD
 
 ## Virtual Machines
 
 #### **Indium**
 
 - #### Hydrogen
-  - Debian 11
+  - Debian
   - 2 vCPUs, 4 GB RAM, 32 GB HDD
   - Docker Services: Pi-hole, Traefik, UniFi Controller, Portainer Agent
 
 #### **Titanium**
 
 - #### Krypton
-  - Ubuntu Server 20.04 LTS
+  - Ubuntu Server
   - 4 vCPUs, 8 GB RAM, 500 GB HDD
   - Docker Services:
-    - **General:** Gluetun, Homer, Portainer
-    - **Media:** Bazarr, Jackett, Jellyfin, qBittorrent, Radarr, Sonarr
+    - **General:** Homer, Portainer
+    - **Media:** Bazarr, Jellyfin, Radarr, Sonarr
+
+- #### Xenon
+  - Ubuntu Server
+  - 4 vCPUs, 4 GB RAM, 32 GB HDD
+  - Services:
+    - **General:** VPN client
+    - **Media:** qBittorrent, Jackett
 
 - #### Tantalum
-  - Windows Server 2019
+  - Windows Server
   - 2 vCPUs, 2 GB RAM, 100 GB HDD
   - Domain Controller for AD Lab
+  
+- #### Lithium
+  - Rocky Linux
+  - 4 vCPUs, 4 GB RAM, 64 GB HDD
+  - Ansible/AWX host
 
 
 ## Networking
@@ -67,14 +88,6 @@ It's more homeproduction than homelab, but here's what I've got running in it.
 - OPNsense Firewall
 - Mikrotik CSS326-24G-2S+RM Switch
 - UniFi AC Pro Access Point
-  
-### VLANs/Networks
-
-- ```VLAN 1 - 192.168.1.0/24``` - OPNsense native/LAN
-- ```VLAN 5 - 192.168.5.0/24``` - Management (Unifi Controller and AP)
-- ```VLAN 6 - 192.168.6.0/24``` - Trusted/Servers
-- ```VLAN 7 - 192.168.7.0/24``` - IoT Devices
-- ```VLAN 8 - 192.168.8.0/24``` - Client Devices/Guests
 
 
 ### OPNsense Plugins
