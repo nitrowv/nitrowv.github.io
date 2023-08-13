@@ -7,7 +7,7 @@ permalink: /homelab/
 ---
 It's more homeproduction than homelab, but here's what I've got running in it.
 
-*As of March 2023*
+*As of July 2023*
 
 ## Servers
 
@@ -54,7 +54,7 @@ It's more homeproduction than homelab, but here's what I've got running in it.
 - #### Hydrogen
   - Debian
   - 2 vCPUs, 4 GB RAM, 32 GB HDD
-  - Docker Services: Pi-hole, Traefik, UniFi Controller, Portainer Agent
+  - Services: Pi-hole, Nginx Proxy Manager, UniFi Controller, Portainer Agent
 
 #### **Titanium**
 
@@ -70,12 +70,7 @@ It's more homeproduction than homelab, but here's what I've got running in it.
   - 4 vCPUs, 4 GB RAM, 32 GB HDD
   - Services:
     - **General:** VPN client
-    - **Media:** qBittorrent, Jackett
-
-- #### Tantalum
-  - Windows Server
-  - 2 vCPUs, 2 GB RAM, 100 GB HDD
-  - Domain Controller for AD Lab
+    - **Media:** qBittorrent, Prowlarr
   
 - #### Lithium
   - Rocky Linux

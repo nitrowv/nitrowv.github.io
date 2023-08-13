@@ -4,7 +4,7 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-Hi there! I'm Tanner Johnston, a senior Computer Science and Information Technology (CSIT) student at Trine University living in Northwest Ohio. I have interests in network/system administration, information security, and free and open-source software. Besides tech, I enjoy traveling, playing video games, and rooting for Pittsburgh sports teams.
+Hi there! I'm Tanner Johnston, a sysadmin living in Northwest Ohio. I have interests in network/system administration, information security, and free and open-source software. Besides tech, I enjoy traveling, playing video games, and rooting for Pittsburgh sports teams.
 
 ### Certifications
 
@@ -36,13 +36,13 @@ Hi there! I'm Tanner Johnston, a senior Computer Science and Information Technol
   - Junior Varsity CS:GO Player (Aug 2019 - Jan 2020)
   - Varsity CS:GO Player (Jan 2020 - Aug 2020)
   - JV CS:GO Captain (Aug 2020 - May 2021)
-  - CS:GO Manager (May 2021 - Present)
+  - CS:GO Manager (May 2021 - May 2023)
 
 - Computer Science Society
-  - Member (Jan 2021 - Present)
-  - System Administrator (Mar 2022 - Present)
+  - Member (Jan 2021 - May 2023)
+  - System Administrator (Mar 2022 - May 2023)
 
 - CSS Hacking Team
   - Member (Sep 2021 - August 2022)
-  - Co-Captain (August 2022 - Present)
+  - Co-Captain (August 2022 - May 2023)
 
