@@ -4,7 +4,7 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-Hi there! I'm Tanner Johnston, a sysadmin living in Northeast Indiana. I have interests in network/system administration, information security, and free and open-source software. Besides tech, I enjoy traveling, playing video games, and rooting for Pittsburgh sports teams.
+Hi there! I'm Tanner Johnston, a sysadmin from Fort Wayne, Indiana. I have interests in network/system administration, information security, and free and open-source software. Besides tech, I enjoy traveling, playing video games, and rooting for Pittsburgh sports teams.
 
 ### Certifications
 

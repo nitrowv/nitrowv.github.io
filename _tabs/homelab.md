@@ -7,81 +7,54 @@ permalink: /homelab/
 ---
 It's more homeproduction than homelab, but here's what I've got running in it.
 
-*As of July 2023*
+*As of July 2026*
 
 ## Servers
 
-### **Proxmox Cluster**
-
-- #### **Indium (Networking)**
-
-	- Intel NUC5i3SYH
-	- Intel Core i3-6100U
-	- 4 GB RAM
-	- 500 GB HDD
-
-- #### **Titanium**
+- ### **Titanium (Proxmox)**
 
 	- Intel Xeon E5-2698 v3
 	- Asus X99-WS/IPMI
-	- 128 GB RAM
+	- 160 GB RAM
 	- 128 GB SATA M.2 SSD
-	- 2 TB HDD
+	- 1 TB NVMe SSD
+  - 800 GB Sun F80 SSD
 	- Mellanox ConnectX-2 10Gb NIC
 	- Corsair 4000D Airflow
 
-### **Cadmium (OPNsense Firewall)**
+### **OPNsense Firewall**
 
-- Intel Xeon E5504
-- Supermicro X8STi
-- 4 GB RAM
-- 256 GB SSD
-- 2x Intel 82574L Gigabit NIC
-- Supermicro SC512-200B
+  - Lenovo M720q
+  - Intel Core i5-8400T
+  - 8 GB RAM
+  - 256 GB SSD
+  - Mellanox ConnectX-3 10Gb NIC
 
 ### **Iron (TrueNAS)**
 
-- Dell Optiplex 7040 SFF
-- Intel Core i5-6500
-- 8 GB RAM
-- 128 GB SATA M.2 SSD
-- 14 TB Seagate Exos X16 HDD
+  - Intel Core i3-13100T
+  - Gigabyte B760I Aorus Pro DDR4
+  - 32 GB RAM
+  - 128 GB SATA M.2 SSD
+  - 2x 200GB Intel S3710 SSDs (Striped)
+  - 4x 14TB Seagate/WD HDDs, 28 TB Usable (RAIDZ2)
 
 ## Virtual Machines
 
-#### **Indium**
-
-- #### Hydrogen
-  - Debian
-  - 2 vCPUs, 4 GB RAM, 32 GB HDD
-  - Services: Pi-hole, Nginx Proxy Manager, UniFi Controller, Portainer Agent
-
-#### **Titanium**
-
-- #### Krypton
-  - Ubuntu Server
-  - 4 vCPUs, 8 GB RAM, 500 GB HDD
+- #### Krypton (Docker Host)
+  - Debian 13
+  - 4 vCPUs, 8 GB RAM, 64 GB HDD
   - Docker Services:
-    - **General:** Homer, Portainer
-    - **Media:** Bazarr, Jellyfin, Radarr, Sonarr
-
-- #### Xenon
-  - Ubuntu Server
-  - 4 vCPUs, 4 GB RAM, 32 GB HDD
-  - Services:
-    - **General:** VPN client
-    - **Media:** qBittorrent, Prowlarr
-  
-- #### Lithium
-  - Rocky Linux
-  - 4 vCPUs, 4 GB RAM, 64 GB HDD
-  - Ansible/AWX host
-
+    - **General:** Actual Budget, Lubelogger
+    - **Homelab Utilities**: Dockhand, Homer, Traefik, Librespeed
+    - **Media:** Radarr, Sonarr, Lidarr, Prowlarr, Dispatcharr, Immich
+    - **Ham Radio**: Hamclock, Wavelog
 
 ## Networking
 
 - OPNsense Firewall
-- Mikrotik CSS326-24G-2S+RM Switch
+- UniFi Aggregation
+- UniFi Pro Max 16 PoE
 - UniFi AC Pro Access Point
 
 
