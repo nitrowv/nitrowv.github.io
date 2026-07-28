@@ -11,6 +11,8 @@ layout:
 tabs:
   # format: <filename_without_extension>: <value>
   home: Home
+  homelab: Homelab
+  hamradio: Ham Radio
   categories: Categories
   tags: Tags
   archives: Archives

@@ -1,8 +1,8 @@
 ---
 layout: page
-title: My Homelab
+title: Homelab
 icon: fas fa-server
-order: 6
+order: 3
 permalink: /homelab/
 ---
 It's more homeproduction than homelab, but here's what I've got running in it.
@@ -10,17 +10,6 @@ It's more homeproduction than homelab, but here's what I've got running in it.
 *As of July 2026*
 
 ## Servers
-
-- ### **Titanium (Proxmox)**
-
-	- Intel Xeon E5-2698 v3
-	- Asus X99-WS/IPMI
-	- 160 GB RAM
-	- 128 GB SATA M.2 SSD
-	- 1 TB NVMe SSD
-  - 800 GB Sun F80 SSD
-	- Mellanox ConnectX-2 10Gb NIC
-	- Corsair 4000D Airflow
 
 ### **OPNsense Firewall**
 
@@ -30,6 +19,16 @@ It's more homeproduction than homelab, but here's what I've got running in it.
   - 256 GB SSD
   - Mellanox ConnectX-3 10Gb NIC
 
+### **Titanium (Proxmox)**
+  - Intel Xeon E5-2698 v3
+  - Asus X99-WS/IPMI
+  - 160 GB RAM
+  - 128 GB SATA M.2 SSD
+  - 1 TB NVMe SSD
+  - 800 GB Sun F80 Flash Accelerator
+  - Mellanox ConnectX-2 10Gb NIC
+  - Corsair 4000D Airflow
+
 ### **Iron (TrueNAS)**
 
   - Intel Core i3-13100T
@@ -38,17 +37,22 @@ It's more homeproduction than homelab, but here's what I've got running in it.
   - 128 GB SATA M.2 SSD
   - 2x 200GB Intel S3710 SSDs (Striped)
   - 4x 14TB Seagate/WD HDDs, 28 TB Usable (RAIDZ2)
+  - Mellanox ConnectX-3 10Gb NIC
+  - Fractal Design Node 304
 
-## Virtual Machines
+## Services
 
-- #### Krypton (Docker Host)
-  - Debian 13
-  - 4 vCPUs, 8 GB RAM, 64 GB HDD
-  - Docker Services:
-    - **General:** Actual Budget, Lubelogger
-    - **Homelab Utilities**: Dockhand, Homer, Traefik, Librespeed
-    - **Media:** Radarr, Sonarr, Lidarr, Prowlarr, Dispatcharr, Immich
-    - **Ham Radio**: Hamclock, Wavelog
+### Containerized Services
+  - **General:** Actual Budget, Lubelogger
+  - **Homelab/Network Utilities**: Dockhand, Homer, Traefik, Librespeed, Technitium DNS, Unifi OS, Gluetun
+  - **Media:** Radarr, Sonarr, Lidarr, Prowlarr, Dispatcharr, Immich, Jellyfin
+  - **Radio**: Hamclock, Wavelog, Ultrafeeder, PiAware, FlightRadar24 feeder
+
+### Dedicated VMs/Servers
+  - **General**: Qbittorrent, GPU Accelerated Windows 11 VM for Fusion
+  - **Homelab/Network Utilities**: FreePBX, Ansible Automation Platform, Wazuh
+  - **Radio**: SDR++ Server
+
 
 ## Networking
 
