@@ -1,0 +1,19 @@
+main:
+  - title: "Posts"
+    url: /posts
+  - title: "Homelab"
+    url: /homelab
+  - title: "Ham Radio"
+    url: /hamradio
+  - title: "About Me"
+    url: /about
+
+site:
+  - title: "Categories"
+    url: /categories/
+  - title: "Tags"
+    url: /tags/
+  - title: "Archive"
+    url: /archive/
+  - title: "Collections"
+    url: /collection-archive/
