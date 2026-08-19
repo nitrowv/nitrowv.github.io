@@ -50,10 +50,12 @@ author:
       url: "mailto:contact@nitrolabs.xyz"
 
 # Build settings
-theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes@4.28.1"
 minimal_mistakes_skin: dark
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
+  - jekyll-include-cache
 include: ["_pages"]
 defaults:
   # _posts
